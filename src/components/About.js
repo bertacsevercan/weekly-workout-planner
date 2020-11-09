@@ -1,5 +1,5 @@
 import React from "react";
-import { Typography, Space, Image } from "antd";
+import { Typography } from "antd";
 import { FALLBACK_IMG, SPONGEBOB_ARM } from "../Images";
 
 const { Title, Text } = Typography;
@@ -42,7 +42,7 @@ export default function About() {
         </Text> <br/>
         <Text>ThiccBois: 
         <a href="https://github.com/bertacsevercan" >Bertaç Severcan</a> &
-        <a href="https://github.com/ihab-sensei" >Ihab Severcan</a>
+        <a href="https://github.com/ihab-sensei" >Ihab 'Sensei'</a>
         </Text>
       </div>
 

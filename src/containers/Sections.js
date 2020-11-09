@@ -62,7 +62,7 @@ export default function Sections({ workout, name, view }) {
         setSections(dataArr);
       });
     return unsubscribe;
-  }, []);
+  }, [name, workout.docId]);
 
   return (
     <>
